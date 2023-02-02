@@ -67,11 +67,12 @@
         <a href="index.html" class="nav-link d-flex align-items-center">
           <span class="sidebar-icon">
             <img
-              src="/resume-template/assets/img/brand/light.svg"
+              src="/angularcv/assets/img/portrait.png"
               height="20"
               width="20"
               alt="{{appTitleVersion}}"
               title="{{appTitleVersion}}"
+              class="profilepic"
             />
           </span>
           <span class="mt-1 ms-1 sidebar-text">Resume Overview</span>
@@ -80,53 +81,29 @@
       <li class="nav-item" routerLinkActive="active">
         <a data-bs-toggle="collapse" data-bs-target="#sidebarMenu" routerLink="/home" class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-home"></span></span>
-          <span class="sidebar-text">{{ 'menu.home' | translate }}</span>
+          <span class="sidebar-text">{{ 'menu.home' }}</span>
         </a>
       </li>
       <li class="nav-item" routerLinkActive="active">
         <a data-bs-toggle="collapse" data-bs-target="#sidebarMenu" routerLink="/certifs" class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-graduation-cap"></span></span>
-          <span class="sidebar-text">{{ 'menu.certifications' | translate }}</span>
+          <span class="sidebar-text">{{ 'menu.certifications' }}</span>
         </a>
       </li>
       <li class="nav-item" routerLinkActive="active">
         <a data-bs-toggle="collapse" data-bs-target="#sidebarMenu" routerLink="/technologies" class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-book"></span></span>
-          <span class="sidebar-text">{{ 'menu.technologies' | translate }}</span>
-        </a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a data-bs-toggle="collapse" data-bs-target="#sidebarMenu" routerLink="/members" class="nav-link">
-          <span class="sidebar-icon"><span class="fas fa-user"></span></span>
-          <span class="sidebar-text">{{ 'menu.members' | translate }}</span>
+          <span class="sidebar-text">{{ 'menu.technologies' }}</span>
         </a>
       </li>
       <li class="nav-item" routerLinkActive="active">
         <a data-bs-toggle="collapse" data-bs-target="#sidebarMenu" routerLink="/achievements" class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-check-circle"></span></span>
-          <span class="sidebar-text">{{ 'menu.achievements' | translate }}</span>
-        </a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a data-bs-toggle="collapse" data-bs-target="#sidebarMenu" routerLink="/demos" class="nav-link">
-          <span class="sidebar-icon"><span class="fas fa-car"></span></span>
-          <span class="sidebar-text">{{ 'menu.demos' | translate }}</span>
+          <span class="sidebar-text">{{ 'menu.achievements' }}</span>
         </a>
       </li>
 
       <li role="separator" class="dropdown-divider mt-4 mb-3 border-black"></li>
-
-      <li class="nav-item" title="My open source Github project">
-        <a
-          href="https://amwebexpert.github.io/etoolbox"
-          class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro"
-        >
-          <span class="sidebar-icon"
-            ><span class="fas fa-box me-2"></span
-          ></span>
-          <span>WebToolbox App</span>
-        </a>
-      </li>
     </ul>
   </div>
 </nav>
